@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: dimgray;
+	border: 1px solid black;
+}
+
+.container, footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid maroon;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+
+footer {
+	text-align: center;
+	background-color: rosybrown;
+	color: dimgray;
+}
+
+
+/* ========== The is the top bar formatting, including: logo, nav, and contact ========== */
+#topBar {
+	display: flex;
+	flex-direction: row;
+	/* stretch fills the vertical space here */
+	align-items: stretch;
+	justify-content: space-between;
+	background-color: black;
+	height: 100px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 1em;
+}
+
+
+#logo {
+	background-color: rosybrown;
+	color: maroon;
+	width: 100px;
+}
+
+#contactInfo {
+		background-color: rosybrown;
+}
+
+/* ========== This is the formatting for the main part of the site ========== */
+/* ========== There is a highlight portion, cats portion, and dogs portion ========== */
+#main {
+	display: flex;
+	flex-direction: column;	
+	background-color: lightpink;
+	margin: 10px;
+}
+
+.simple{
+	
+}
+
+.highlightAnimalFocus {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid gray;
+	min-height: 400px;
+	min-width: 450px;
+	max-width: 100%;
+	margin: 3em;
+	background-color: dimgray;
+	
+}
+
+.highlightAnimalText {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+	min-height: 350px;
+	flex-grow: 4;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 3em;	
+	overflow: auto;
+	background-color: darkgray;
+}
+
+.imgContainer {
+	display: flex;
+	flex-direction: row;
+	overflow: auto;
+	margin: 20px 10px;
+}
+
+.animalImg {
+	border: 1px solid gray;
+	min-height: 300px;
+	min-width: 300px;
+	max-width: 350px;
+	margin: 3em;
+	background-color: maroon;
+}
+
+.imgFocusContainer {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	margin: 20px 10px;
+}
+
+.animalFocus {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid gray;
+	min-height: 350px;
+	min-width: 400px;
+	max-width: 100%;
+	margin: 3em;
+	background-color: darkgray;
+	
+}
+
+.animalText {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid gray;
+	min-height: 300px;
+	flex-grow: 4;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 3em;	
+	overflow: auto;
+}
+
+

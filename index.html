@@ -1,0 +1,159 @@
+<!-- Flexbox layout assignment -->
+<!-- inpiration pages are: -->
+<!-- https://p.w3layouts.com/demos/july-2016/07-07-2016/grocery_store/web/ -->
+	<!-- inspiration: top bar, connect with us in footer,  -->
+<!-- https://p.w3layouts.com/demos/24-02-2016/shop_list/web/ -->
+	<!-- inspiration: top bar, three larger divs and aesthetics of those -->
+<!--  -->
+<!--  -->
+
+<!-- Could add in different style sheets in the future 
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+-->
+<!--  -->
+<!--  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/flexboxStyle.css">
+
+    <title>Sample Animal Rescue Layout</title>
+</head>
+<body>
+	<!-- Container class is the one that encapsulates all other divs -->
+	<!-- Use column layout for the childdren of container -->
+    <div class="container">
+	
+	<div id="topBar">
+	<!-- logo, then navigation, then a contact link -->
+		<div id="logo">
+			LOGO
+		</div>
+		
+		<!-- Hide and then hover for mobile -->
+		
+		<nav> 
+			<a href="index.html"> home | </a> <br>
+			<a href="pages/dogs.html"> dogs | </a> <br>
+			<a href="pages/cats.html"> cats | </a> <br>
+			<a href="pages/foster.html"> foster | </a> <br>
+			<a href="pages/donate.html"> donate | </a> <br>
+			<a href="pages/volunteer.html"> volunteer | </a> <br>
+			<a href="pages/animals.html"> table of animals (hidden)| </a> <br>
+		</nav>
+	
+		<div id="contactInfo">
+			link to "contact us" <br>
+			sign in (for volunteers and members)
+		</div>
+	
+	</div>
+
+
+        <div id="main">
+			...
+			
+			<!-- This is the highlight section -->
+            <div class="simple">
+                Highlight <br>
+				also an image - 
+				
+				<div class="highlightAnimalFocus">
+
+				<div class="animalImg">
+				</div>
+				
+				<div class="highlightAnimalText">
+				</div>
+
+				</div>
+             </div>
+
+			<!-- This is the cats section -->			 
+			<div class="simple">
+                Cats <br>
+				image <br>
+				links...
+				
+				<div class="imgContainer">
+				<div class="animalImg">
+					CAT 1
+				</div>
+				
+				<div class="animalImg">
+					CAT 2
+				</div>
+
+				<div class="animalImg">
+					CAT 3
+				</div>
+
+				<div class="animalImg">
+					CAT 4
+				</div>
+
+				<div class="animalImg">
+					CAT 5
+				</div>
+
+				<div class="animalImg">
+					CAT 6
+				</div>
+
+				<div class="animalImg">
+					CAT 7
+				</div>					
+				</div>
+             </div>
+			 
+			<!-- This is the dogs section -->
+			<div class="simple">
+                Dogs <br>
+				image <br>
+				
+				<div class="imgContainer">
+				<div class="animalImg">
+					DOG 1
+				</div>
+				
+				<div class="animalImg">
+					DOG 2
+				</div>
+
+				<div class="animalImg">
+					DOG 3
+				</div>
+
+				<div class="animalImg">
+					DOG 4
+				</div>
+
+				<div class="animalImg">
+					DOG 5
+				</div>
+				</div>
+				links...
+             </div>
+
+            <div class="fancy">
+                ...
+            </div>
+
+    </div>
+    </div>
+
+</body>
+<footer>
+    Connect with us: {applicable social media}
+</footer>
+</html>
